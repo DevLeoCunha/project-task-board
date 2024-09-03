@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    padding: 30px;
+    user-select: none; /*Impede de selecionar o texto*/
+}
+
+
+header > span {
+
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(41, 25, 81);
+    letter-spacing: 0.02rem; /*Este atributo põe espaçamento entre as letras*/
+}
+
+header > h1 {
+    color: rgb(255, 0, 217);
+    font: 12px;
+    font-weight: 600px;
+    margin-top: 5px;
+}
+
+.columns {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.column {
+    width: 100%;
+    background-color: brown;
+    height: 100dvh; /* o 'd' + vh = d de dinamico, a barra de altura se ajusta dinamicamente a tela que estiver sendo mostrada no navegador, telemóvel etc...*/
+}

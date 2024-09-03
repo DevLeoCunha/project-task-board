@@ -48,6 +48,7 @@ header > h1 {
 
 .column__cards {
     padding: 4px;
+    height: 100%;
 }
 
 .card {
@@ -64,6 +65,6 @@ header > h1 {
 }
 
 .column--highlight {
-
+    background-color: blue;
 
 }

@@ -53,5 +53,17 @@ header > h1 {
 .card {
     width: 100%;
     min-height: 70px;
-    
+    background-color: bisque;
+    border-radius: 8px;
+    border: 1px solid burlywood;
+    box-shadow: 0 2px 2px #dfe1e6;
+    padding: 12px 14px; /* 12 px é top e bottom, 14px é left e right*/
+    font-size: 12px;
+    font-weight: 500;
+    color: blue;
+}
+
+.column--highlight {
+
+
 }

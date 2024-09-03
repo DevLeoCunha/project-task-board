@@ -36,4 +36,22 @@ header > h1 {
     width: 100%;
     background-color: brown;
     height: 100dvh; /* o 'd' + vh = d de dinamico, a barra de altura se ajusta dinamicamente a tela que estiver sendo mostrada no navegador, telemóvel etc...*/
+    border-radius: 8px;
+}
+
+.column__title {
+    color: rgb(125, 226, 43);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.column__cards {
+    padding: 4px;
+}
+
+.card {
+    width: 100%;
+    min-height: 70px;
+    
 }
